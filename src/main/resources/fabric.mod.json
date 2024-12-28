@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "ewnetherite",
+  "version": "${version}",
+  "name": "Ew, Netherite!",
+  "description": "Makes netherite unobtainable in survival mode",
+  "authors": [
+    {
+      "name": "eclipseisoffline",
+      "contact": {
+        "homepage": "https://github.com/eclipseisoffline"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://github.com/eclipseisoffline/ewnetherite",
+    "issues": "https://github.com/eclipseisoffline/ewnetherite/issues",
+    "sources": "https://github.com/eclipseisoffline/ewnetherite"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/ewnetherite/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.eclipseisoffline.ewnetherite.EwNetherite"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
