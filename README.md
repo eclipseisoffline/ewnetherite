@@ -8,7 +8,7 @@ This mod makes netherite unobtainable in vanilla survival mode.
 Specifically, this mod makes the following changes:
 
 - Remove ancient debris, netherite scrap, and netherite ingots from all (vanilla and modded) loot tables.
-- Remove vanilla ancient debris ore generation from all (vanilla and modded) loot tables.
+- Remove vanilla ancient debris ore generation from all (vanilla and modded) biomes.
 
 This mod does NOT make netherite unusable, and if other mods provide access to netherite in other ways, this mod will
 not disable those.
@@ -27,6 +27,6 @@ This mod was created quickly for one time use, I don't intend on keeping up supp
 
 ## Usage
 
-Mod build can be downloaded [here]().
+Mod build can be downloaded [here](https://github.com/eclipseisoffline/ewnetherite/releases).
 
 The Fabric API is required. This mod should work with Sinytra connector, but I have not tested it.
